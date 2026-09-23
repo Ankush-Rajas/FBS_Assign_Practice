@@ -3,7 +3,7 @@
 int main(){
     int lenght, width;
 
-    printf("Enter the value\n");
+    printf("Enter the value: ");
 
     scanf("%d", &lenght);
     scanf("%d", &width);
