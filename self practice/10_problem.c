@@ -1,5 +1,6 @@
 #include <stdio.h>
-char isVowel(char);
+
+int isVowel(char);
 int main()
 {
     char ch = 'x';
@@ -17,7 +18,7 @@ int main()
 
     return 0;
 }
-char isVowel(char ch)
+int isVowel(char ch)
 {
     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
     {
